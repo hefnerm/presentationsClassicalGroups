@@ -52,7 +52,7 @@ end;
 
 #This method returns true if the inputs t,d,u fulfill the presentation used in GetPSL2OddPresAsSLP for the projective special linear group on p^e elements for p odd and e > 1, or false if not.
 #The presentation can be found in LEEDHAM-GREEN, C. R.; O'BRIEN, E. A. Presentations on standard generators for classical groups. arXiv preprint arXiv:1811.00685, 2018, page 9
-#in this method t stands for tau, d for delta and u for U
+#in this method t equals tau, d equals delta and u equals U
 CheckGeneratorsForPSL2 := function(p, e, t, d, u)
 	local q, w, m, ind, minpo, coeffsMinpo, coeffsRepresW, b, wbas, mat, dstore, conj, result, gens, elm, isSquare, SLP, t1, dm, tf, i, list, wstore;
 	
